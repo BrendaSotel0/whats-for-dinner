@@ -45,5 +45,6 @@ header {
 }
 
 .white-box {
-  border: green;
+  background-color: #e6e7e7;
+  opacity: .90;
 }
