@@ -4,7 +4,46 @@ COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
-red - #ee5253
+red - #ee5253 */
 
-*/
+body {
+  background-image: url("https://github.com/BrendaSotel0/whats-for-dinner/blob/main/assets/burger-friends.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
 
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+header {
+  background-color: #11b9b2;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0px 14px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.white-box {
+  border: green;
+}
