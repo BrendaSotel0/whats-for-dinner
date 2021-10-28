@@ -6,49 +6,22 @@
   <body>
     <header>
       <h1 class="title">What's for Dinner?</h1>
-      <button class="flex-container">Add A Recipe</button>
+      <button>Add A Recipe</button>
     </header>
-    <main class="content magenta">
-      <section class="white-box">
-        <h1>What are you looking for?</h1>
-        <input
-          type="radio"
-          name="Food"
-          value="Side"
-          checked="checked"
-        >
-          Side
-        </input>
-        <input
-          type="radio"
-          name="Food"
-          value= "Main Dish"
-          checked="checked"
-        >
-          Main Dish
-        </input>
-        <input
-          type="radio"
-          name="Food"
-          value="Dessert"
-          checked="checked"
-        >
-          Dessert
-        </input>
-        <input
-          type="radio"
-          name="Food"
-          value="Entire Meal"
-          checked="checked"
-        >
-          Entire Meal
-        </input>
-        <button>LET'S COOK!</button>
-      </section>
-      <section class="white-box">
-        <h1>Hello World</h1>
-        <!-- <img src="assets/cookpot.svg"/> -->
-      </section>
+    <main class="content">
+      <div class="flex-child magenta">
+        <h1>What are you looking for?<span>&#42;</span></h1>
+        <div class="input-container">
+          <label><input type="radio" name="Food" value="Side">Side</input></label>
+          <label><input type="radio" name="Food" value= "Main Dish">Main Dish</input></label>
+          <label><input type="radio" name="Food" value="Dessert">Dessert</input></label>
+          <label><input type="radio" name="Food" value="Entire Meal">Entire Meal</input></label>
+        </div>
+        <button class="lc-button">LET'S COOK!</button>
+      </div>
+      <div class="flex-child green">
+        <img src="assets/cookpot.svg" class="image"/>
+      </div>
     </main>
   </body>
   <script type="text/javascript" src="main.js"></script>
