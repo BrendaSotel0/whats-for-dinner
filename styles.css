@@ -83,3 +83,22 @@ span {
 label {
   margin: 10px;
 }
+
+.clear-button {
+  background-color: #95a5a6;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  height: 35px;
+  width: 80px;
+  margin-right: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.clear-btn-parent {
+  display: flex;
+  justify-content: flex-end;
+}
