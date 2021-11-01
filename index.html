@@ -6,26 +6,33 @@
   <body>
     <header>
       <h1 class="title">What's for Dinner?</h1>
-      <button>Add A Recipe</button>
     </header>
     <main class="content">
       <div class="flex-child">
         <div class="content-child">
           <h1>What are you looking for?<span>&#42;</span></h1>
           <div class="input-container">
-            <label><input type="radio" name="Food" value="Side">Side</input></label>
-            <label><input type="radio" name="Food" value= "Main Dish">Main Dish</input></label>
-            <label><input type="radio" name="Food" value="Dessert">Dessert</input></label>
-            <label><input type="radio" name="Food" value="Entire Meal">Entire Meal</input></label>
+            <label>
+              <input type="radio" name="food" value="sides">Side</input>
+            </label>
+            <label>
+              <input type="radio" name="food" value= "mains">Main Dish</input>
+            </label>
+            <label>
+              <input type="radio" name="food" value="desserts">Dessert</input>
+            </label>
+            <label>
+              <input type="radio" name="food" value="entire meal">Entire Meal</input>
+            </label>
           </div>
-          <button class="lc-button">LET'S COOK!</button>
+          <button class="lets-cook-button">LET'S COOK!</button>
         </div>
       </div>
-      <div class="flex-child">
+      <div class="flex-child recipe-choice">
         <img src="assets/cookpot.svg" class="image"/>
       </div>
     </main>
   </body>
   <script type="text/javascript" src="main.js"></script>
-
+  <script type="text/javascript" src="data.js"></script>
 </html>
