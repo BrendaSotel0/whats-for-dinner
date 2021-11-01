@@ -1,10 +1,7 @@
 var boxOne  = document.querySelector('.input-container');
 var recipeChoice = document.querySelector('.recipe-choice');
-
-//buttons
 var lcButton = document.querySelector('.lets-cook-button');
 
-//event listeners
 lcButton.addEventListener("click", selectRandomItem);
 
 function selectRandomItem() {
@@ -17,7 +14,7 @@ function selectRandomItem() {
 }
 
 function renderItem(recipeString) {
-recipeChoice.innerHTML = `<p><i>You should make:</i></p> <p>${recipeString}!</p>`
+recipeChoice.innerHTML = `<center class="result"><p><i>You should make:</i></p> <p><h1>${recipeString}!</h1></p></center>`
 }
 
 function determineArray(arrayName) {
@@ -38,6 +35,3 @@ function determineArray(arrayName) {
 function getRandomIndex(int) {
   return Math.floor(Math.random() * int);
 }
-
-//for the entire meal
-//we would need to get a random string from each array and display it 
