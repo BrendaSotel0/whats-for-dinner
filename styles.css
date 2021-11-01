@@ -29,6 +29,8 @@ header {
 
 .flex-child {
   background-color: rgba(225, 225, 225, .9);
+  height: 25em;
+  width: 30em;
 }
 
 .content {
@@ -43,8 +45,9 @@ header {
 }
 
 .image {
-  padding: 4em;
-    width: 7em;
+  margin-left: auto;
+    margin-right: auto;
+        padding: 3em 6em;
 }
 
 span {
@@ -62,4 +65,8 @@ span {
 .input-container {
   display: flex;
   flex-direction: column;
+}
+
+.content-child {
+  margin-left:1em
 }
