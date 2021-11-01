@@ -17,7 +17,7 @@ function selectRandomItem() {
 }
 
 function renderItem(recipeString) {
-recipeChoice.innerHTML = `<p>${recipeString}</p>`
+recipeChoice.innerHTML = `<p><i>You should make:</i></p> <p>${recipeString}!</p>`
 }
 
 function determineArray(arrayName) {
@@ -38,3 +38,6 @@ function determineArray(arrayName) {
 function getRandomIndex(int) {
   return Math.floor(Math.random() * int);
 }
+
+//for the entire meal
+//we would need to get a random string from each array and display it 

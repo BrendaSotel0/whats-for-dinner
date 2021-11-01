@@ -46,8 +46,12 @@ header {
 
 .image {
   margin-left: auto;
-    margin-right: auto;
-        padding: 3em 6em;
+  margin-right: auto;
+  padding: 3em 6em;
+  height: 150px;
+  width: 150px;
+  padding-left: 165px;
+  padding-top: 123px;
 }
 
 span {
@@ -60,6 +64,7 @@ span {
   border-radius: 4px;
   width: 60%;
   height: 10%;
+  margin-top: 10px;
 }
 
 .input-container {
@@ -68,5 +73,11 @@ span {
 }
 
 .content-child {
-  margin-left:1em
+  margin-left:1em;
+  margin: 50px;
+  /* text-align: center; */
+}
+
+label {
+  margin: 10px;
 }
