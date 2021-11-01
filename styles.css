@@ -83,3 +83,7 @@ span {
 label {
   margin: 10px;
 }
+
+.clear-button {
+  display: none
+}
